@@ -1,0 +1,80 @@
+// File: chatbot_monorepo/.gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.env/
+env/
+venv/
+ENV/
+venv*/
+venv_server/
+venv_client/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+*.mo
+
+# Build artifacts
+build/
+dist/
+downloads/
+eggs/
+*.egg-info/
+wheels/
+*.egg
+MANIFEST
+
+# C/C++
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.i  # Preprocessed C files
+*.s  # Assembly files
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+*.swp
+*~
+*.orig
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs directory content (keep the directory itself)
+logs/*
+server/logs/*
+!server/logs/.gitkeep
+client/logs/*
+!client/logs/.gitkeep
+
+# User-specific files
+secrets.json
+local_settings.py
